@@ -92,11 +92,11 @@ nav {
 
 .dropbtn {
   background-color: black;
-  border: 1px solid seashell;
+  border: 2px solid #fff5eebf;
   border-radius: 6px;
   margin-right: 20px;
   height: 45px;
-  width: 50px;
+  width: 45px;
   padding: 1px 1px 4px 2px;
   display: none;
 }
@@ -158,34 +158,6 @@ nav {
 	visibility: hidden;
 }
 
-@media only screen and (max-width: 610px){
-	.logo {
-		height: 38px;
-	}
-
-	.nav-item a {
-		font-size: 1rem;
-	}
-}
-
-@media only screen and (max-width: 500px){
-	.nav-list {
-		padding-left: 2px;
-	}
- 
-  .nav-item:first-child {
-    padding-right: .9rem;
-  }
-
-  .nav-item:nth-child(n+2) {
-  	display: none;
-  }
-
-  .dropbtn {
-  	display: inline-block;
-  }
-  
- }
 
 /* -- main section -- */
 
@@ -232,84 +204,6 @@ nav {
 	margin-top: 8px;
 }
 
-@media only screen and (max-width: 1072px){
-	.tbackpic {
-		height: 625px;
-	}
-}
-
-@media only screen and (max-width: 961px){
-	.tbackpic {
-		height: 550px;
-	}
-}
-
-@media only screen and (max-width: 850px){
-	.tbackpic {
-		height: 475px;
-	}
-}
-
-@media only screen and (max-width: 740px){
-	.tbackpic {
-		height: 425px;
-	}
-
-	.mission h1 {
-		font-size: 1.2rem;
-	}
-}
-
-@media only screen and (max-width: 630px){
-	.tbackpic {
-		height: 375px;
-	}
-}
-
-@media only screen and (max-width: 580px){
-	.tbackpic {
-		background-position: top;
-		height: 330px;
-	}
-	.mission {
-		display: none;
-	}
-
-	.mission2 {
-		display: block;
-	}
-}
-
-@media only screen and (max-width: 500px){
-	.tbackpic {
-		margin-top: 0;
-	  height: 300px;
-	}
-}
-
-@media only screen and (max-width: 450px){
-	.tbackpic {
-	  margin-bottom: 0;
-	}
-
-	.mission2 h1 {
-		margin-top: 0;
-	}
-}
-
-@media only screen and (max-width: 415px){
-	.tbackpic {
-		margin-top: 0;
-	  height: 280px;
-	}
-}
-
-@media only screen and (max-width: 375px){
-	.tbackpic {
-		margin-top: 0;
-	  height: 260px;
-	}
-}
 
 /* -- mid section -- */
 
@@ -339,23 +233,20 @@ nav {
 	display: flex;
 }
 
+.sec2 h2 {
+	margin-bottom: 0;
+}
+
+.sec2 h3 {
+	margin-top: 10px;
+}
+
+
 .midsection p {
 	text-align: center;
 	margin: 30px 0;
 }
 
-@media only screen and (max-width: 375px){
-	.sec2 {
-		margin-top: 60px;
-	}
-
-	.sec2 h2 {
-		margin-bottom: 0;
-	}
-
-	.sec2 h3 {
-		margin-top: 10px;
-}
 
 /* -- Location Section -- */
 
@@ -401,6 +292,24 @@ nav {
 	font-weight: 100;
 }
 
+
+/* -- Contact Section -- */
+
+.contact {
+	text-align: center;
+}
+ 
+footer {
+  margin-left: 20px;
+}
+
+footer em {
+	font-weight: 100;
+}
+
+
+/* --  Media Section  -- */
+
 @media only screen and (max-width: 1310px){
 	.locbox {
 		height: 275px;
@@ -440,18 +349,22 @@ nav {
 	}
 }
 
-/* -- Contact Section -- */
-
-.contact {
-	text-align: center;
-}
- 
-footer {
-  margin-left: 20px;
+ @media only screen and (max-width: 1072px){
+	.tbackpic {
+		height: 625px;
+	}
 }
 
-footer em {
-	font-weight: 100;
+@media only screen and (max-width: 961px){
+	.tbackpic {
+		height: 550px;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.tbackpic {
+		height: 475px;
+	}
 }
 
 @media only screen and (max-width: 800px){
@@ -459,4 +372,103 @@ footer em {
 		font-size: .9rem;
 		text-align: center;
 	}
+}
+
+@media only screen and (max-width: 740px){
+	.tbackpic {
+		height: 425px;
+	}
+
+	.mission h1 {
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (max-width: 630px){
+	.tbackpic {
+		height: 375px;
+	}
+}
+
+@media only screen and (max-width: 610px){
+	.logo {
+		height: 38px;
+	}
+
+	.nav-item a {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 580px){
+	.tbackpic {
+		background-position: top;
+		height: 330px;
+	}
+	.mission {
+		display: none;
+	}
+
+	.mission2 {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.tbackpic {
+		margin-top: 0;
+	  height: 300px;
+	}
+
+	.nav-list {
+		padding-left: 2px;
+	}
+ 
+  .nav-item:first-child {
+    padding-right: .9rem;
+  }
+
+  .nav-item:nth-child(n+2) {
+  	display: none;
+  }
+
+  .dropbtn {
+  	display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 450px){
+	.tbackpic {
+	  margin-bottom: 0;
+	}
+
+	.mission2 h1 {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 415px){
+	.tbackpic {
+		margin-top: 0;
+	  height: 280px;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	.tbackpic {
+		margin-top: 0;
+	  height: 260px;
+	}
+
+	.sec2 {
+		margin-top: 60px;
+	}
+
+	.sec2 h2 {
+		margin-bottom: 0;
+	}
+
+	.sec2 h3 {
+		margin-top: 10px;
+  }
 }
